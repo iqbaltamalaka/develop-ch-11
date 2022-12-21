@@ -166,8 +166,8 @@ export const ContentInputUpload = styled.input`
 `;
 export const ButtonDownload = styled.button`
 	font-weight: 700;
-	margin-top: 36em;
-	margin-left: 15em;
+	margin-top: 38em;
+	margin-left: 20em;
 	height: 50px;
 	width: 150px;
 	border-radius: 15px;

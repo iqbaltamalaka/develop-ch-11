@@ -101,6 +101,7 @@ export const Title = styled.h1`
 
 export const Input = styled.input`
   background-color: #eee;
+  color: black;
   border: none;
   padding: 12px 15px;
   margin: 8px 0;

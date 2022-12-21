@@ -96,17 +96,17 @@ export default function ColumnGroupingTable() {
 					<Table ref={componentRef} stickyHeader aria-label="sticky table">
 						<TableHead>
 							<TableRow>
-								<TableCell sx={{ fontSize: 32 }} align="center" colSpan={2}>
+								<TableCell sx={{ fontSize: 22 }} align="center" colSpan={2}>
 									Username
 								</TableCell>
-								<TableCell sx={{ fontSize: 32 }} align="center" colSpan={3}>
+								<TableCell sx={{ fontSize: 22 }} align="center" colSpan={3}>
 									Games Result
 								</TableCell>
 							</TableRow>
 							<TableRow>
 								{columns.map((column) => (
 									<TableCell
-										sx={{ fontSize: 32 }}
+										sx={{ fontSize: 22 }}
 										key={column.id}
 										align={column.align}
 										style={{ top: 57, minWidth: column.minWidth }}>
